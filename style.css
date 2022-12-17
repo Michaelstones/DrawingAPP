@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "poppins", "san-serif";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* flex-wrap: wrap; */
+}
+
+#canvas {
+  border: 1.5px solid #333;
+}
+
+.brush {
+  width: 500px;
+  padding: 0.3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3rem;
+  background-color: rgb(8, 79, 145);
+}
+
+.brush > * {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 0 0.3rem;
+}
+
+.brush button {
+  background-color: rebeccapurple;
+  color: antiquewhite;
+}
+.brush span {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brush input {
+  padding: 0;
+}
+
+.brush .switch {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.brush .clear {
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
